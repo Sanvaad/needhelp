@@ -1,0 +1,64 @@
+.hero {
+  background-image: url("/public/images/home/desktop/image-hero.jpg");
+
+  height: 75vh;
+  min-width: 95vw; /* Adjust this value as needed */
+  background-clip: initial;
+
+  object-fit: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero-container {
+  // max-width: 100vw;
+  // height: 100vh;
+
+  z-index: 1;
+  margin-inline: auto;
+  background-color: #191919;
+}
+
+// background: url("/public/images/home/desktop/image-hero.jpg");
+
+// background-image: url("/public/images/home/desktop/image-hero.jpg");
+
+// .hero {
+//   background-image: url(public/images/home/desktop/image-hero.jpg);
+//   height: 76vh;
+//   background-size: cover; /* or a specific size */
+//   background-repeat: no-repeat;
+//   background-position: center bottom;
+//   position: fixed;
+
+//   &__product {
+//     width: 25%;
+//     margin-top: 14rem;
+//     display: flex;
+//     flex-direction: column;
+//     position: absolute;
+//     margin-left: 15rem;
+
+//     &--arrival {
+//       font-size: 1.4rem;
+//       color: rgba(255, 255, 255, 0.5);
+//       letter-spacing: 1rem;
+//       font-weight: 500;
+//       margin-bottom: 2rem;
+//     }
+
+//     &--name {
+//       font-size: 5.3rem;
+//       color: rgb(255, 255, 255);
+//       margin-bottom: 2rem;
+//     }
+
+//     &--description {
+//       font-size: 1.5rem;
+//       line-height: 1.5;
+//       width: 95%;
+//       color: rgba(255, 255, 255, 0.5);
+//       margin-bottom: 4rem;
+//     }
+//   }
+// }
